@@ -65,9 +65,9 @@ public class Main {
         if (leftWeight < 0) {
             System.out.println("Места в машине не достаточно! Перегруз на " + overload + " кг!");
             System.out.println("Распределим поровну продукты по машинам");
-            Scanner cC = new Scanner(System.in);
+            //Scanner cC = new Scanner(System.in);
             System.out.println("Введите количество машин:");
-            int carCount = cC.nextInt();
+            int carCount = lC.nextInt();
             float separateWeight = productsWeight / carCount;
             if (carCount >= 5) {
                 System.out.println("Все " + productsWeight + " кг были распределены в " + carCount + " машин!");
